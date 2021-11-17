@@ -12,10 +12,10 @@ Image preprocessing and segmentation is solely done using OpenCV for most of the
 - Deskewing the hindi word written in image.
 - Using horizontal projection of image we remove the unncesseary area above and below the hindi word.
 - Using vertical projection we remove the unnecessary area in the left and write of hindi word.
-- Again taking vertical projection of image we segment the characters because the 'sheromadi rekha' will have the smallest sum of pixels in vertical projection.
-- After segmentation of each character we send it to our model to predict the char.
+- Again taking vertical projection of image we segment the characters because the 'SHIROREKHA' will have the smallest sum of pixels in vertical projection.
+- After segmentation of each character we send it to our model to predict the character.
 
-<sharp> Note : We have used two cnn models for char recognition for better accuracy.</sharp>
+<sharp> Note : We have used two CNN models for char recognition for better accuracy.</sharp>
 
 ## Working demo
 ### Orginal Image
@@ -41,8 +41,8 @@ Image preprocessing and segmentation is solely done using OpenCV for most of the
 ## Possible Improvements
 - One can improve the image preprocessing such that it became more robust.
 - For segmentation some backtracking methods can be used to be able to segment not connected hindi char such as "ga" and "sha".
-- model can be trained for hindi matra which can also segmented using our approach.
-- Model can also be trained to consider complete word inspite of using char for prediction.
+- Model can be trained for hindi matra which can also segmented using our approach.
+- Model can also be trained to consider complete word inspite of using character for prediction.
 
 
 
