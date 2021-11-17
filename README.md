@@ -1,6 +1,6 @@
-# HINDI-OCR
+# Handwritten Hindi Character Recognition
 
-This is a simple implementation of Hindi OCR using CNN model trained using Tensorflow and Keras libraries.
+This is a simple implementation of Handwritten Hindi Character Recognition using CNN model trained using Tensorflow and Keras libraries.
 
 Image preprocessing and segmentation is solely done using OpenCV for most of the hindi words model give proper prediction.
 
